@@ -1,0 +1,89 @@
+body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.5;
+        }
+
+        /* Навигация */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 5%;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo { font-weight: bold; font-size: 20px; }
+        nav a { margin-left: 20px; text-decoration: none; color: #555; font-size: 14px; }
+
+        /* Главный блок (Hero Section) */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(to bottom, #ffffff, #f5f5f7);
+        }
+
+        .hero h1 { font-size: 64px; margin: 0; font-weight: 700; }
+        .hero p { font-size: 21px; max-width: 600px; color: #86868b; }
+
+        .btn {
+            background: #0071e3;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 980px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        /* Секции с особенностями */
+        .section {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 60px 5%;
+            flex-wrap: wrap;
+        }
+
+        .section-text { flex: 1; min-width: 300px; padding: 20px; }
+        .section-image { flex: 1; min-width: 300px; text-align: center; }
+        
+        .section-image img { 
+            max-width: 100%; 
+            border-radius: 20px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        h2 { font-size: 40px; margin-bottom: 20px; }
+
+        /* Видео блок */
+        .video-container {
+            text-align: center;
+            padding: 60px 5%;
+            background: #fff;
+        }
+
+        iframe {
+            max-width: 100%;
+            border-radius: 15px;
+            border: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 12px;
+            color: #86868b;
+            border-top: 1px solid #d2d2d7;
+        }
